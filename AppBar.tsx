@@ -58,7 +58,7 @@ const MyAppBar: React.FC<any> = ({ teams, team, openTeam, openTeamMember }) => {
   };
 
   useEffect(() => {
-    console.log('teams Aoovar', team)
+    console.log('teams remote', team)
   }, [teams]);
 
   const handleSwitch = (event: any) => {
