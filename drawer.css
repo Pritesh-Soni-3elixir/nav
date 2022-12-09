@@ -1,0 +1,135 @@
+#main-content.drawer-open #parent-content .parent-logo-div {
+    justify-content: flex-start;
+    justify-items: flex-start;
+    margin-left: 20px !important;
+}
+
+.hover-eaebef {
+    transition: 0.2s ease-in-out;
+}
+
+.hover-eaebef:hover {
+    background-color: rgba(216, 222, 233, 0.836) !important;
+    cursor: pointer;
+}
+
+.side-btn-left:hover {
+    background-color: transparent !important;
+}
+
+.drawer-admin .active {
+    background-color: #fff;
+    color: #4286f5 !important;
+}
+
+.drawer-active {
+    color: red !important;
+}
+
+
+/* drawer class */
+.drawer-open .left-side {
+    width: auto;
+    justify-content: left;
+    /* display: flex; */
+    /* margin-left: 20%; */
+    align-items: flex-start;
+    display: block;
+}
+
+.drawer-close .left-side {
+    width: auto;
+    align-items: center;
+    align-content: flex-start;
+    /* margin-left: 7%; */
+}
+
+#top-menu-team.drawer-open {
+    left: 180px !important;
+}
+
+/* Change for drawer expand (17-11-2022) */
+#main-content.drawer-open header {
+    width: calc(100vw - 262px) !important;
+    border-bottom: 1px solid #ccc;
+}
+
+#main-content.drawer-close header {
+    width: calc(100vw - 73px) !important;
+    border-bottom: 1px solid #ccc;
+}
+
+#main-content.drawer-open #parent-content {
+    border-right: 1px solid #ccc;
+}
+
+.chat-box.drawer-open {
+    width: 68%;
+    flex-grow: 0 !important;
+}
+
+#parent-content.drawer-open {
+    width: 262px !important;
+}
+
+
+/* I did not remove these css from people app.css because they are general styles */
+.pl-10 {
+    padding-left: 10px;
+}
+
+
+/*  25-11-22 starts */
+.drawer-content-height{
+    min-height:calc(100vh - 72px) !important;
+    /* height: 600px !important; */
+}
+/*  25-11-22 ends */
+
+
+/* 28-12-22 */
+
+
+/* date: 24-11-22 */
+.popup-title-org-change {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 16px;
+    text-align: center;
+    margin-left: 22px;
+  }
+  
+  /* Font style class 24-11-22 */
+  .pop-600-12-14 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #202223;
+  
+  }
+  
+  .pop-400-14-18 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #202223;
+  }
+  
+  /* Css for Admin page 25-11-22 */
+  .adminlist-icons:hover{
+    cursor: pointer;
+    background-color: #f5f5f5;
+  }
+  
+  
+  /* Css for Drawer 25-11-22 */
+  .drawer-content-height{
+    min-height:calc(100vh - 72px) !important;
+    /* height: 600px !important; */
+  }
